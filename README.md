@@ -67,13 +67,16 @@ De asemenea, pentru rularea unui singur test am folosit:
 
 ## Bibliografie
 
-[Web-site](https://ocw.cs.pub.ro/courses/so/laboratoare/laborator-02)
-[Web-site](https://linux.die.net/man/2/open)
-[Web-site](https://linux.die.net/man/2/read)
-[Web-site](https://linux.die.net/man/2/write)
-[Web-site](https://linux.die.net/man/2/lseek)
-[Web-site](https://linux.die.net/man/2/lseek)
-[Web-site](https://ocw.cs.pub.ro/courses/so/laboratoare/laborator-03)
-[Web-site](https://www.geeksforgeeks.org/c-program-demonstrate-fork-and-pipe/)
-
-
+[Web-site 1](https://ocw.cs.pub.ro/courses/so/laboratoare/laborator-02)
+<br>
+[Web-site 2](https://linux.die.net/man/2/open)
+<br>
+[Web-site 3](https://linux.die.net/man/2/read)
+<br>
+[Web-site 4](https://linux.die.net/man/2/write)
+<br>
+[Web-site 5](https://linux.die.net/man/2/lseek)
+<br>
+[Web-site 6](https://ocw.cs.pub.ro/courses/so/laboratoare/laborator-03)
+<br>
+[Web-site 7](https://www.geeksforgeeks.org/c-program-demonstrate-fork-and-pipe/)
