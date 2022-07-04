@@ -20,17 +20,28 @@ acum.
 Pentru implementarea bibliotecii stdio am avut nevoie de structura so_file, care contine 
 urmatoarele:
 
-typedef struct _so_file {
+typedef struct _so_file{ 
+<br>
 	int fd; // file descriptor
+<br>
 	int eof;
+<br>
 	int error;
+<br>
 	unsigned char buffer[SIZE];
+<br>
 	int buff_pos; // buffer position
+<br>
 	int opening_mode; // 1 - read, 2 - write
+<br>
 	int bytes; // number of bytes readed
+<br>
 	int cursor;
+<br>
 	int child;
+<br>
 } SO_FILE;
+<br>
 
 A fost implementat tot enuntul temei, fara functionalitati extra fata de cele descrise in enunt.
 
@@ -54,22 +65,22 @@ am folosit Makefile-ul implementat de mine.
 
 Realizare build:
 	<br>
-	gcc -Wall -shared so_stdio.o -o libso_stdio.so
+	**gcc -Wall -shared so_stdio.o -o libso_stdio.so**
 	<br>
-	gcc -Wall -g -fPIC -c so_stdio.c
+	**gcc -Wall -g -fPIC -c so_stdio.c**
 	<br>
 
 Pentru testare se foloseste Makefile.checker, care va folosi biblioteca dinamica libso_stdio.so
 si se realizeaza astfel:
 <br>
-	make -f Makefile.checker
+	**make -f Makefile.checker**
 <br>
 
 De asemenea, pentru rularea unui singur test am folosit:
 <br>
-	./_test/run_test.sh init
+	**./_test/run_test.sh init**
 	<br>
-	./_test/run_test.sh <nrTest>
+	./_test/run_test.sh <nrTest> 
 	<br>
 
 
