@@ -53,16 +53,24 @@ Pentru compilarea bibliotecii dinamice libso_stdio.so, care se realizeaza folosi
 am folosit Makefile-ul implementat de mine.
 
 Realizare build:
+	<br>
 	gcc -Wall -shared so_stdio.o -o libso_stdio.so
+	<br>
 	gcc -Wall -g -fPIC -c so_stdio.c
+	<br>
 
 Pentru testare se foloseste Makefile.checker, care va folosi biblioteca dinamica libso_stdio.so
 si se realizeaza astfel:
+<br>
 	make -f Makefile.checker
+<br>
 
 De asemenea, pentru rularea unui singur test am folosit:
+<br>
 	./_test/run_test.sh init
+	<br>
 	./_test/run_test.sh <nrTest>
+	<br>
 
 
 ## Bibliografie
